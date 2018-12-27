@@ -1,5 +1,5 @@
 ## JENKINS_FIRE_CHROME_EXTENSION
-![alt text](https://github.com/navidmostafiz/JENKINS_FIRE_CHROME_EXTENSION/icon_128.png)
+![JENKINS_FIRE](https://github.com/navidmostafiz/JENKINS_FIRE_CHROME_EXTENSION/blob/master/icon_128.png)
 ### Chrome extension for Jenkins Job Status
 
 ### What it does
