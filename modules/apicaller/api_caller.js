@@ -1,12 +1,12 @@
 function apiCallHandler(apiURL, callback) {
 
     function successFun(response, textStatus, jqxhr) {
-        console.info('successFun: ' + (response ? ' - response: ' + JSON.stringify(response) : "") + (textStatus ? ' - textStatus: ' + textStatus : ""));
+        console.info('API CALL SUCCESS: ' + (response ? ' * RESPONSE: ' + JSON.stringify(response) : "") + (textStatus ? ' - textStatus: ' + textStatus : ""));
         callback(response);
     }
 
     function errorFun(jqxhr, textStatus, errorThrown) {
-        console.warn('errorFun: ' + (errorThrown ? ' - errorThrown: ' + response : "") + (textStatus ? ' - textStatus: ' + textStatus : ""));
+        console.warn('API CALL FAILURE: ' + (errorThrown ? ' - errorThrown: ' + response : "") + (textStatus ? ' - textStatus: ' + textStatus : ""));
         callback(textStatus);
     }
 
